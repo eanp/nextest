@@ -1,0 +1,12 @@
+.button{
+    background-color: aqua;
+    color:black;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 8px;
+    margin: 20px;
+}
+.button:hover{
+    background-color: salmon;
+    cursor: pointer;
+}
