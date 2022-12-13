@@ -1,6 +1,11 @@
 .container {
   padding: 0 2rem;
 }
+.imageWrapper{
+  height: 20vh;
+  width: 20vw;
+  position: relative;
+}
 
 .main {
   min-height: 100vh;

@@ -11,9 +11,9 @@ import Layouts from '../components/Layouts'
         <Link href={"/product/1"}>product</Link>
         <Link href={"/about"}>about</Link>
     </div>
-    {/* <div className="image-wrapper"> */}
-    <Image className='image-wrapper' src="/sokin.png" height={100} width={100} alt="banner" />
-    {/* </div> */}
+    <div className={styles.imageWrapper}>
+      <Image  src="/sokin.png" alt="banner" layout="fill" objectFit="contain" />
+    </div>
     </Layouts>
   )
 }
